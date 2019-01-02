@@ -1,0 +1,19 @@
+{
+  "name": "marked",
+  "version": "1.0.0",
+  "description": "",
+  "main": "marked.js",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "marked": "^0.6.0"
+  },
+  "devDependencies": {
+    "express": "^4.16.4",
+    "express-route": "^0.1.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
