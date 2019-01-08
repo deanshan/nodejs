@@ -4,7 +4,10 @@ module.exports = (function() {
   let router = express.Router();
 
   router.get('/', (req, res)=>{
-    res.send('我是web').end();
+    let data = {
+      text: '我是web'
+    }
+    res.send(JSON.stringify(data)).end();
   });
 
   return router;

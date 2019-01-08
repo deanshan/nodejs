@@ -57,7 +57,7 @@ function getIPv4(){
   return ipv4s[0];//返回一个可用的即可
 }
 
-app.set('port', process.env.PORT || 3000);
+app.set('port', process.env.PORT || 3200);
 
 var server = http.listen(app.get('port'), function() {
   console.log('start at port:' + getIPv4() +':'+ server.address().port);
