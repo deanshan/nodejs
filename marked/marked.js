@@ -15,7 +15,7 @@ fs.readFile(path, function(err, data) {
 })
 function server(data) {
     http.createServer(function (req,res) {
-        res.writeHead(200, {'Content-Type': 'text/html;charset=utf-8'});
+        // res.writeHead(200, {'Content-Type': 'text/html;charset=utf-8'});
         res.end(data);
     }).listen(8080)
 }
